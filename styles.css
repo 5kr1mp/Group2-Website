@@ -1,0 +1,72 @@
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    all: unset;
+}
+
+header{
+    border: 1px solid;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img{
+    padding:10px;
+    width: 70px;
+}
+
+header div:first-of-type{
+    margin-left: 0.5rem;
+    padding: 5px;
+    flex: 2;
+}
+
+header button{
+    display: flex;
+    height: 40px;
+}
+
+#website-details-btn img{
+    padding: 0px;
+}
+
+#nav-btn img{
+    padding: 5px;
+}
+
+/* main content */
+#content{
+    border: 1px solid red;
+}
+
+#content *{
+    border: 1px solid blue;
+}
+
+#content{
+    position: relative;
+    top: 71px;
+    width: 80%;
+    margin: auto;
+}
+
+.project-list{
+    position: sticky;
+}
+
+#project-info{
+    min-height: 200px;
+}
+
+#project-content{
+    min-height: 500px;
+}
